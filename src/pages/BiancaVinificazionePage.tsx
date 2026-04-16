@@ -5,14 +5,14 @@ import { MenuIconType } from '../types/Types';
 
 function BiancaVinificazionePage() {
 	const steps = [
-		{ id: 1, title: "Vigneto", img: "../../images/vigneto.jpeg", desc: "Selezione delle uve e monitoraggio della maturazione in campo." },
-		{ id: 2, title: "Raccolta e Pressatura", img: "../../images/pressatura.jpeg", desc: "Vendemmia e separazione delicata del mosto dalle bucce." },
-		{ id: 3, title: "Ammostamento", img: "../../images/ammostamento.jpeg", desc: "Trasferimento del mosto nei serbatoi di fermentazione." },
-		{ id: 4, title: "Flottazione", img: "../../images/flottazione.jpg", desc: "Illimpidimento del mosto tramite risalita delle impurità." },
-		{ id: 5, title: "Fermentazione", img: "../../images/fermentazione.webp", desc: "Trasformazione degli zuccheri in alcol a temperatura controllata." },
-		{ id: 6, title: "Chiarifica/Filtrazione", img: "../../images/chiarifica.jpeg", desc: "Rimozione dei residui solidi per ottenere un vino limpido." },
-		{ id: 7, title: "Stabilizzazione", img: "../../images/stabilizzazione.png", desc: "Trattamento a freddo per prevenire precipitazioni tartariche." },
-		{ id: 8, title: "Imbottigliamento", img: "../../images/imbottigliamento.jpg", desc: "Confezionamento finale e preparazione per la distribuzione." },
+		{ id: 1, title: "Vigneto", img: "/Hackaton_VasonGroup/images/vigneto.jpeg", desc: "Selezione delle uve e monitoraggio della maturazione in campo." },
+		{ id: 2, title: "Raccolta e Pressatura", img: "/Hackaton_VasonGroup/images/pressatura.jpeg", desc: "Vendemmia e separazione delicata del mosto dalle bucce." },
+		{ id: 3, title: "Ammostamento", img: "/Hackaton_VasonGroup/images/ammostamento.jpeg", desc: "Trasferimento del mosto nei serbatoi di fermentazione." },
+		{ id: 4, title: "Flottazione", img: "/Hackaton_VasonGroup/images/flottazione.jpg", desc: "Illimpidimento del mosto tramite risalita delle impurità." },
+		{ id: 5, title: "Fermentazione", img: "/Hackaton_VasonGroup/images/fermentazione.webp", desc: "Trasformazione degli zuccheri in alcol a temperatura controllata." },
+		{ id: 6, title: "Chiarifica/Filtrazione", img: "/Hackaton_VasonGroup/images/chiarifica.jpeg", desc: "Rimozione dei residui solidi per ottenere un vino limpido." },
+		{ id: 7, title: "Stabilizzazione", img: "/Hackaton_VasonGroup/images/stabilizzazione.png", desc: "Trattamento a freddo per prevenire precipitazioni tartariche." },
+		{ id: 8, title: "Imbottigliamento", img: "/Hackaton_VasonGroup/images/imbottigliamento.jpg", desc: "Confezionamento finale e preparazione per la distribuzione." },
 	];
 
 	const quizData = [

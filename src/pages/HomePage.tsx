@@ -85,7 +85,7 @@ function HomePage() {
 		className="relative grid min-h-svh place-items-center overflow-hidden p-[clamp(0.8rem,2vw,1.4rem)] max-[560px]:p-[0.6rem]"
 		style={{
 			backgroundImage:
-			"linear-gradient(rgba(255, 255, 255, 0.22), rgba(255, 255, 255, 0.22)), url('../../images/home.jpeg')",
+			"linear-gradient(rgba(255, 255, 255, 0.22), rgba(255, 255, 255, 0.22)), url('/Hackaton_VasonGroup/images/home.jpeg')",
 			backgroundPosition: "center",
 			backgroundSize: "cover",
 			backgroundRepeat: "no-repeat",
