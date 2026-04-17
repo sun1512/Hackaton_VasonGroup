@@ -8,72 +8,65 @@ function BiancaVinificazionePage() {
   // Dati arricchiti con "curiosità" per stimolare l'apprendimento
   const steps = [
     {
-      id: 1,
-      title: "Vigneto",
-      img: "/Hackaton_VasonGroup/images/vigneto.jpeg",
-      desc: "Tutto nasce in vigna, dove la qualità del vino si costruisce giorno dopo giorno. Le uve vengono selezionate con cura e monitorate per maturazione, grado zuccherino e acidità.",
-      insight:
-        "Sapevi che l'escursione termica tra giorno e notte in vigna è ciò che fissa i precursori aromatici nel acino?",
+        id: 1,
+        title: "Vigneto",
+        img: "/Hackaton_VasonGroup/images/vigneto.jpeg",
+        desc: "Tutto nasce in vigna, dove la qualità del vino si costruisce giorno dopo giorno. Le uve vengono selezionate con cura e monitorate per maturazione, grado zuccherino e acidità.",
+        insight: "Sapevi che l'escursione termica tra giorno e notte in vigna è ciò che fissa i precursori aromatici nel acino?"
     },
     {
-      id: 2,
-      title: "Raccolta e Pressatura",
-      img: "/Hackaton_VasonGroup/images/pressatura.jpeg",
-      desc: "Durante la pressatura soffice, separiamo il mosto fiore dalle bucce per evitare l'estrazione di tannini amari, tipici dei rossi.",
-      insight:
-        "In questa fase il freddo è il miglior alleato: lavorare a basse temperature evita ossidazioni precoci.",
+        id: 2,
+        title: "Raccolta e conferimento",
+        img: "/Hackaton_VasonGroup/images/pressatura.jpeg",
+        desc: "L'uva viene raccolta meccanicamente o manualmente a maturità e successivamente trasportata dal vigneto alla cantina",
+        insight: "Questo momento è molto delicato per evitare fenomeni ossidativi si utilizzano prodotti come derivati di lievito per proteggere l'uva"
     },
     {
-      id: 3,
-      title: "Ammostamento",
-      img: "/Hackaton_VasonGroup/images/ammostamento.png",
-      desc: "Il mosto viene trasferito in vasche d'acciaio. Qui si aggiungono enzimi per liberare gli aromi intrappolati nelle pectine della polpa.",
-      insight:
-        "L'uso di gas inerti come l'azoto impedisce al mosto di 'imbrunire' a contatto con l'aria.",
+        id: 3,
+        title: "Ammostamento",
+        img: "/Hackaton_VasonGroup/images/ammostamento.png",
+        desc: "Indica l'operazione di pressatura delle uve e separazione del mosto dalle bucce.",
+        insight: "L'uso di gas inerti come l'azoto impedisce al mosto di 'imbrunire' a contatto con l'aria."
     },
     {
-      id: 4,
-      title: "Flottazione",
-      img: "/Hackaton_VasonGroup/images/flottazione.png",
-      desc: "Un processo affascinante: bollicine di gas portano verso l'alto le impurità, lasciando il mosto sottostante limpido e pronto per fermentare.",
-      insight:
-        "È una tecnica più rapida della decantazione classica che utilizza azoto insuflato e agenti floculanti, salvaguardando la freschezza aromatica. ",
+        id: 4,
+        title: "Flottazione",
+        img: "/Hackaton_VasonGroup/images/flottazione.png",
+        desc: "Un processo affascinante: bollicine di gas portano verso l'alto le impurità, lasciando il mosto sottostante limpido e pronto per fermentare.",
+        insight: "È una tecnica più rapida della decantazione classica che utilizza azoto insuflato e agenti floculanti, salvaguardando la freschezza aromatica. "
     },
     {
-      id: 5,
-      title: "Fermentazione",
-      img: "/Hackaton_VasonGroup/images/fermentazione.png",
-      desc: "I lieviti (Saccharomyces cerevisiae) banchettano con gli zuccheri producendo alcol, CO2 e calore.",
-      insight:
-        "Per i bianchi, manteniamo i 16-18°C. Se salissimo troppo, perderemmo i profumi di fiori e frutta fresca.",
+        id: 5,
+        title: "Fermentazione",
+        img: "/Hackaton_VasonGroup/images/fermentazione.png",
+        desc: "I lieviti (Saccharomyces cerevisiae) banchettano con gli zuccheri producendo alcol, CO2 e calore.",
+        insight: "L'uso di lieviti selezionati e il mantenimento di una temperatura tra i 16-18°C permette di esaltare i profumi di fiori e frutta fresca",
     },
     {
-      id: 6,
-      title: "Chiarifica e Filtrazione",
-      img: "/Hackaton_VasonGroup/images/chiarifica.jpeg",
-      desc: "Il vino viene 'pulito'. La bentonite (un'argilla naturale) aiuta a rimuovere le proteine instabili che potrebbero rendere il vino torbido.",
-      insight:
-        "Oggi si usano proteine vegetali (pisello o patata) per rendere i vini adatti anche a chi ha allergie.",
+        id: 6,
+        title: "Chiarifica e Filtrazione",
+        img: "/Hackaton_VasonGroup/images/chiarifica.jpeg",
+        desc: "Il vino viene 'pulito' ovvero, vengono rimossi tutti i residui contenuti nel vino come le proteine, evitando intorbidimento o formazione di precipitati.",
+        insight: "Oggi si usano proteine vegetali (pisello o patata) per rendere i vini adatti anche a chi ha allergie."
     },
     {
-      id: 7,
-      title: "Stabilizzazione",
-      img: "/Hackaton_VasonGroup/images/stabilizzazione.png",
-      desc: "Portiamo il vino a temperature vicine allo zero per far precipitare i sali tartarici.",
-      insight:
-        "Per una stabilizzazione più efficace si possono usare agenti cristallizzanti che fisicamente aiutano a rimuovere i sali.",
+        id: 7,
+        title: "Stabilizzazione",
+        img: "/Hackaton_VasonGroup/images/stabilizzazione.png",
+        desc: "Portiamo il vino a temperature vicine allo zero per far precipitare i sali tartarici ed evitare che si formino durante la conservazione in bottiglia.",
+        insight: "Per una stabilizzazione più efficace si possono usare agenti cristallizzanti che fisicamente aiutano a rimuovere i sali."
     },
     {
-      id: 8,
-      title: "Imbottigliamento",
-      img: "/Hackaton_VasonGroup/images/imbottigliamento.png",
-      desc: "Il sigillo finale. Il vino viene protetto da una piccolissima dose di solfiti e confezionato in vetro.",
-      insight:
-        "Il tappo non è solo una chiusura, ma decide quanto e come il vino 'respirerà' nel tempo.",
-    },
+        id: 8,
+        title: "Imbottigliamento",
+        img: "/Hackaton_VasonGroup/images/imbottigliamento.png",
+        desc: "Il sigillo finale. Il vino viene confezionato in bottiglie e tappi di vario formato in base alle necessità",
+        insight: "Durante l'imbottigliamento è importante sanitizzare correttamente la linea per evitare possibile contaminazioni del vino."
+    }
   ];
+
 const quizData = [
-  {
+ {
     id: 1,
     phase: "🍇 Vigneto",
     question:
@@ -90,108 +83,108 @@ const quizData = [
   },
   {
     id: 2,
-    phase: "🧃 Pressatura",
+    phase: "🚜 Raccolta e conferimento",
     question:
-      "Perché durante la pressatura si separa il mosto fiore dalle bucce?",
-    intro: "Un passaggio chiave per i vini bianchi.",
+      "Qual è lo scopo dell'utilizzo di derivati di lievito durante la raccolta?",
+    intro: "Un momento delicato per la qualità dell'uva.",
     options: [
-      "Per aumentare il colore",
-      "Per evitare tannini amari",
-      "Per velocizzare la fermentazione",
+      "Aumentare il grado zuccherino",
+      "Proteggere l'uva da fenomeni ossidativi",
+      "Colorare il mosto",
     ],
     correct: 1,
     feedback:
-      "Giusto! Separare subito il mosto evita l'estrazione di tannini indesiderati.",
+      "Corretto! I derivati di lievito aiutano a prevenire l'ossidazione dell'uva.",
   },
   {
     id: 3,
-    phase: "🧪 Ammostamento",
+    phase: "🍶 Ammostamento",
     question:
-      "Qual è lo scopo degli enzimi aggiunti durante l'ammostamento?",
-    intro: "Qui iniziano a liberarsi i profumi.",
+      "Cosa si ottiene durante l'operazione di ammostamento?",
+    intro: "Qui inizia la trasformazione vera e propria.",
     options: [
-      "Aumentare l'alcol",
-      "Liberare gli aromi dalle pectine",
-      "Raffreddare il mosto",
+      "La fermentazione del vino",
+      "La separazione del mosto dalle bucce",
+      "L'imbottigliamento",
     ],
     correct: 1,
     feedback:
-      "Corretto! Gli enzimi aiutano a liberare gli aromi intrappolati nella polpa.",
+      "Esatto! L'ammostamento consiste nella pressatura e separazione del mosto dalle bucce.",
   },
   {
     id: 4,
     phase: "🫧 Flottazione",
     question:
-      "Come funziona il processo di flottazione del mosto?",
-    intro: "Una tecnica moderna e veloce.",
+      "Qual è il ruolo delle bollicine di gas nella flottazione?",
+    intro: "Un processo rapido e affascinante.",
     options: [
-      "Le impurità vengono filtrate con carta",
-      "Le impurità salgono grazie a bolle di gas",
-      "Il mosto viene congelato e scongelato",
+      "Aumentare la temperatura del mosto",
+      "Portare le impurità verso l'alto",
+      "Fermentare gli zuccheri",
     ],
     correct: 1,
     feedback:
-      "Esatto! Le bollicine trascinano le particelle verso l’alto lasciando il mosto limpido.",
+      "Giusto! Le bollicine fanno risalire le impurità lasciando il mosto limpido.",
   },
   {
     id: 5,
     phase: "🍷 Fermentazione",
     question:
-      "Cosa producono i lieviti durante la fermentazione alcolica?",
-    intro: "Il cuore della trasformazione.",
+      "Cosa producono i lieviti durante la fermentazione?",
+    intro: "I protagonisti invisibili del vino.",
     options: [
       "Solo alcol",
       "Alcol, CO2 e calore",
-      "Zuccheri e ossigeno",
+      "Acqua e ossigeno",
     ],
     correct: 1,
     feedback:
-      "Perfetto! I lieviti trasformano gli zuccheri in alcol, anidride carbonica e calore.",
+      "Corretto! I lieviti trasformano gli zuccheri in alcol, CO2 e calore.",
   },
   {
     id: 6,
-    phase: "🧼 Chiarifica",
+    phase: "🧪 Chiarifica e Filtrazione",
     question:
-      "Qual è il ruolo della bentonite nella chiarifica del vino?",
-    intro: "Il vino diventa limpido e stabile.",
+      "Qual è lo scopo della chiarifica del vino?",
+    intro: "Un passaggio fondamentale per la limpidezza.",
     options: [
-      "Aumentare il grado alcolico",
-      "Rimuovere proteine instabili",
+      "Aumentare il colore",
+      "Rimuovere residui e proteine",
       "Aggiungere aromi",
     ],
     correct: 1,
     feedback:
-      "Esatto! La bentonite elimina le proteine che potrebbero causare torbidità.",
+      "Esatto! Serve a eliminare particelle che potrebbero causare torbidità.",
   },
   {
     id: 7,
     phase: "❄️ Stabilizzazione",
     question:
       "Perché il vino viene portato a temperature vicine allo zero?",
-    intro: "Un passaggio spesso invisibile ma fondamentale.",
+    intro: "Prepararlo alla conservazione.",
     options: [
-      "Per aumentare il colore",
+      "Per congelarlo",
       "Per far precipitare i sali tartarici",
-      "Per accelerare la fermentazione",
+      "Per aumentare l'alcol",
     ],
     correct: 1,
     feedback:
-      "Corretto! Il freddo aiuta a eliminare i cristalli di tartaro dal vino.",
+      "Giusto! Questo evita la formazione di cristalli in bottiglia.",
   },
   {
     id: 8,
     phase: "🍾 Imbottigliamento",
     question:
-      "Qual è una funzione importante del tappo nella bottiglia?",
-    intro: "L’ultimo step prima di arrivare al consumatore.",
+      "Qual è un aspetto fondamentale durante l'imbottigliamento?",
+    intro: "L'ultimo passo prima della degustazione.",
     options: [
-      "Decorare la bottiglia",
-      "Controllare il passaggio di ossigeno nel tempo",
-      "Aumentare il contenuto di alcol",
+      "Aumentare la temperatura del vino",
+      "Sanitizzare correttamente la linea",
+      "Aggiungere zucchero",
     ],
     correct: 1,
     feedback:
-      "Giusto! Il tappo regola quanto il vino può 'respirare' durante l’invecchiamento.",
+      "Corretto! La sanificazione evita contaminazioni del vino.",
   },
 ];
 
