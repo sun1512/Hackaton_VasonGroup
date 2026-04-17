@@ -446,7 +446,7 @@ const quizData = [
         </div>
 
         {/* --- QUIZ SECTION RI-STILIZZATA --- */}
-        <section className="mt-60 bg-blue-900 rounded-[3rem] p-12 text-white shadow-3xl overflow-hidden relative">
+        <section className="mt-60 bg-blue-900 rounded-[3rem] py-12 px-6 text-white shadow-3xl overflow-hidden relative">
           <div className="absolute top-0 right-0 w-64 h-64 bg-blue-800 rounded-full -translate-y-32 translate-x-32 blur-3xl opacity-50"></div>
 
           <div className="relative z-10 text-center mb-16">
