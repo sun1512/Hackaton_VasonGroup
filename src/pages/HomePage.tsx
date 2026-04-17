@@ -223,11 +223,11 @@ function HomePage() {
 					);
 				})}
 
-				<span
+				{/* <span
 					className="absolute left-1/2 top-0 z-1 h-[clamp(120px,19vw,180px)] w-[clamp(14px,2.1vw,24px)] -translate-x-1/2 rounded-[99px] from-[#7f6a3f] to-[#69532f]"
 					style={{ boxShadow: "inset 0 -10px 10px rgba(0, 0, 0, 0.15)" }}
 					aria-hidden="true"
-				></span>
+				></span> */}
 				</div>
 			</section>
 
