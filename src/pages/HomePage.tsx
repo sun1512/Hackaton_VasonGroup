@@ -122,7 +122,7 @@ function HomePage() {
 			>
 				<h1 className=" text-center font-['Baloo_2',sans-serif] text-[clamp(2.5rem,6vw,4.5rem)] font-black uppercase tracking-widest text-[#54123c] [text-shadow:2px_4px_8px_rgba(0,0,0,0.15)] max-[560px]:mb-8">
 					L'Arte del Vino
-					<span className="block text-[clamp(1rem,2vw,1.5rem)] font-medium lowercase tracking-normal text-[#b34f87]">
+					<span className="block text-[clamp(1rem,2vw,1.5rem)] font-medium lowercase tracking-normal text-[#4d072b]">
 						Esplora le tecniche di vinificazione
 					</span>
 				</h1>
@@ -203,16 +203,16 @@ function HomePage() {
 						);
 						setHoveredId(item.id);
 
-                        if (item.id === 'bianco') console.log('hai premuto')
+                        if (item.id === 'bianco') navigate("vinificazione/bianca")
 						}}
 						aria-label={`Apri ${item.name}`}
 					>
 						{showExpanded ? (
 						<>
-							<strong className="uppercase mt-[10%] block px-[12%] text-center text-[clamp(0.78rem,1.2vw,1.04rem)] font-extrabold  max-[560px]:text-[clamp(0.66rem,1.75vw,0.92rem)]">
+							<strong className="uppercase mt-[10%] block px-[12%] text-center text-xl font-extrabold">
 								{item.name}
 							</strong>
-							<span className="mt-[0.4rem] block px-[12%] pb-[12%] text-center text-[clamp(0.54rem,0.92vw,0.76rem)] font-semibold max-[560px]:text-[clamp(0.48rem,1.62vw,0.62rem)]">
+							<span className="mt-[0.4rem] block px-[12%] pb-[12%] text-center text-lg font-semibold">
 								{item.description}
 							</span>
 						</>
@@ -224,12 +224,6 @@ function HomePage() {
 					</button>
 					);
 				})}
-
-				{/* <span
-					className="absolute left-1/2 top-0 z-1 h-[clamp(120px,19vw,180px)] w-[clamp(14px,2.1vw,24px)] -translate-x-1/2 rounded-[99px] from-[#7f6a3f] to-[#69532f]"
-					style={{ boxShadow: "inset 0 -10px 10px rgba(0, 0, 0, 0.15)" }}
-					aria-hidden="true"
-				></span> */}
 				</div>
 			</section>
 

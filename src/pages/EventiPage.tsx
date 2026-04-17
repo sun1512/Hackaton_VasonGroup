@@ -34,7 +34,7 @@ function EventiPage() {
             Eventi Vason Experience
           </p>
           <h1 className="mt-3 font-['Baloo_2',sans-serif] text-[clamp(2rem,5vw,3.4rem)] font-black leading-tight text-[#4f1f40]">
-            Sfida Live in Cantina
+            Evento live
           </h1>
           <p className="mx-auto mt-4 max-w-2xl text-sm text-[#6b5b64] md:text-base">
             Entra nella challenge con il tuo codice evento e prepara il tuo team:
