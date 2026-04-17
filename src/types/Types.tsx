@@ -1,4 +1,4 @@
-export type MenuIconType = "home" | "wine" | "quiz";
+export type MenuIconType = "home" | "wine" | "eventi";
 
 export type GrapeNode = {
 	x: number;

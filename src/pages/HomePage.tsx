@@ -52,7 +52,7 @@ const grapeNodes: GrapeNode[] = [
 const menuItems: Array<{ id: string; label: string; icon: MenuIconType }> = [
 	{ id: "home", label: "Home", icon: "home" },
 	{ id: "vino", label: "Singolo vino", icon: "wine" },
-	{ id: "quiz", label: "Quiz", icon: "quiz" },
+	{ id: "eventi", label: "Eventi", icon: "eventi" },
 ];
 
 function HomePage() {
@@ -202,6 +202,8 @@ function HomePage() {
 							current === item.id ? null : item.id,
 						);
 						setHoveredId(item.id);
+
+                        if (item.id === 'bianco') console.log('hai premuto')
 						}}
 						aria-label={`Apri ${item.name}`}
 					>
@@ -243,8 +245,8 @@ function HomePage() {
 					onClick={
 						() => {
 							if (item.id === 'home') navigate("/");
-							if (item.id === 'vino') navigate("vinificazione/bianca");
-						}
+							if (item.id === "vino") navigate("/vinificazione/bianca");
+							if (item.id === "eventi") navigate("/eventi");						}
 					}
 					aria-label={item.label}
 				>
