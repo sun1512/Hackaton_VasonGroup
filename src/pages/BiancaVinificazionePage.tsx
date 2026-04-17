@@ -454,7 +454,7 @@ const quizData = [
               🍷 Che tipo di amante del vino sei?
             </h3>
             <p className="text-blue-200 mt-4 text-lg">
-              5 domande in un sorso 😉
+              {quizData.length} domande in un sorso 😉
             </p>
             <p className="text-blue-100/90 mt-2 text-sm md:text-base">
               Rispondi e prova a sbloccare il premio finale 🎁
