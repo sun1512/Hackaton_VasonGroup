@@ -120,7 +120,13 @@ function HomePage() {
 				className="relative z-2 mx-auto grid w-[min(1000px,100%)] place-items-center"
 				aria-label="Tipi di vinificazione"
 			>
-				<div
+				<h1 className=" text-center font-['Baloo_2',sans-serif] text-[clamp(2.5rem,6vw,4.5rem)] font-black uppercase tracking-widest text-[#54123c] [text-shadow:2px_4px_8px_rgba(0,0,0,0.15)] max-[560px]:mb-8">
+					L'Arte del Vino
+					<span className="block text-[clamp(1rem,2vw,1.5rem)] font-medium lowercase tracking-normal text-[#b34f87]">
+						Esplora le tecniche di vinificazione
+					</span>
+				</h1>
+ 				<div
 				className="relative mx-auto aspect-square w-[min(94vw,820px)] rounded-[46px] max-[900px]:w-[min(97vw,720px)] max-[560px]:rounded-[26px]"
 				role="list"
 				>
