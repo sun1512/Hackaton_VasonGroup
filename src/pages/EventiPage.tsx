@@ -99,7 +99,7 @@ function EventiPage() {
             )}
           </article>
 
-          <aside className="rounded-[2rem] border border-[rgba(75,111,180,0.2)] bg-[linear-gradient(165deg,#f6f2ff_0%,#edf5ff_100%)] p-7 shadow-[0_16px_30px_rgba(56,74,116,0.14)]">
+          <aside className="rounded-4xl border border-[rgba(75,111,180,0.2)] bg-[linear-gradient(165deg,#f6f2ff_0%,#edf5ff_100%)] p-7 shadow-[0_16px_30px_rgba(56,74,116,0.14)]">
             <p className="text-[0.72rem] font-bold uppercase tracking-[0.14em] text-[#4463a9]">
               Come funziona
             </p>
